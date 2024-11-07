@@ -1,0 +1,18 @@
+.image-viewer {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-layer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .mask-layer {
+    opacity: 0.5; /* Ajusta la opacidad para hacer visible la superposición */
+    mix-blend-mode: multiply; /* Ajusta el modo de mezcla para mejorar la visualización */
+  }
+  
